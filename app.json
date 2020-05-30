@@ -16,5 +16,4 @@
 			"description": "URL of upstream server to which all requests should be proxied"
 		}
 	},
-	"stack": "heroku-18"
 }
