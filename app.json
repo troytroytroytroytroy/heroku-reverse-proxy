@@ -1,11 +1,11 @@
 {
-	"name": "Reverse Proxy",
-	"description": "Spin up a reverse proxy quickly on Heroku",
+	"name": "Reverse Proxy via Heroku",
+	"description": "Super spin up a reverse proxy quickly on Heroku APP!",
 	"keywords": [
 		"reverse proxy",
 		"nginx"
 	],
-	"repository": "https://github.com/cwarden/heroku-reverse-proxy",
+	"repository": "https://github.com/troytroytroytroytroy/heroku-reverse-proxy/",
 	"buildpacks": [
 		{
 			"url": "http://github.com/leafo/heroku-buildpack-lua.git"
@@ -16,5 +16,5 @@
 			"description": "URL of upstream server to which all requests should be proxied"
 		}
 	},
-	"stack":"heroku-24"
+	"stack":"heroku-22"
 }
